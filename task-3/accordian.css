@@ -1,0 +1,16 @@
+.accord {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: #fff;
+}
+.active,
+.accord:hover {
+  background-color: aquamarine;
+}
+
+.division {
+  display: none;
+  background-color: #fff;
+  overflow: hidden;
+}
