@@ -1,0 +1,28 @@
+/* Mobile */
+@media (max-width: 592px) {
+  .grid--2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid--3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid--5 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .icon {
+    display: contents;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+/* Tab */
+@media (max-width: 768px) {
+}
+/* Above 768-Laptop */
+
+@media (max-width: 1024px) {
+}

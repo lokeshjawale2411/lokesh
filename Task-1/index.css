@@ -1,0 +1,211 @@
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+/* Accordian */
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  padding-left: 12px;
+}
+.right-header {
+  display: flex;
+  gap: 20px;
+  padding-right: 12px;
+}
+.header {
+  /* position: fixed; */
+}
+.icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+/* first */
+.first-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.text1 {
+  font: 42px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.text2 {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.text3 {
+  font-size: 20px;
+  text-align: left;
+}
+.logos {
+  display: flex;
+  gap: 5px;
+}
+
+/* section second */
+
+.second-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.s2 {
+  font-size: 20px;
+}
+
+.s3 {
+  font-size: 16px;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.third-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.grid-section3 {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 9.6rem;
+}
+
+.s31 {
+  font-size: 16px;
+}
+.s32 {
+  font-size: 22px;
+}
+
+.s33 {
+  font-size: 16px;
+}
+.s34 {
+  font-size: 16px;
+}
+/* four section */
+
+.img1 {
+  border-radius: 50%;
+}
+
+.fb {
+  box-shadow: 2px 2px 2px 2px black;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.ft1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.ft2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.four-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-four {
+  padding-top: 32px;
+  background-color: beige;
+  padding-bottom: 32px;
+}
+
+.fb2 {
+  font-size: 24px;
+  text-align: center;
+}
+.fb3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.first-section {
+  background-color: aquamarine;
+}
+
+.second-section {
+  background-color: blueviolet;
+}
+.third-section {
+  background-color: aqua;
+}
+
+/* five */
+
+.five-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: aquamarine;
+}
+
+.fivel1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.fivel2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.fiver {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+/* Footer */
+
+.grid-foot {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+
+.grid--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.footb {
+  display: flex;
+  justify-content: space-between;
+}
+.footu {
+}
+.footer {
+  background-color: black;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
